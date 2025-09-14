@@ -5,7 +5,7 @@ Alex is a high school student who loves reading and has a summer break coming up
 He has a list of books he wants to read, with each book’s estimated reading time stored in an array **A**.  
 Alex has **N** hours available during the break for reading.  
 
-👉 Your task is to help Alex determine the **maximum number of books** he can read without exceeding his total available reading hours.
+ Your task is to help Alex determine the **maximum number of books** he can read without exceeding his total available reading hours.
 
 ---
 
