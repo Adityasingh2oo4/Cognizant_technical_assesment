@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBUI</title>
+    <style>
+        .thumbnail{
+            width : 100px;
+            height : 70px;
+            cursor : pointer;
+        }
+
+        .selected-image{
+            width : 400px;
+            height : 280px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <img src="1.jpeg" class="thumbnail" onclick="showImage(this)">
+    <img src="2.jpeg" class="thumbnail" onclick="showImage(this)">
+    <img src="3.jpeg" class="thumbnail" onclick="showImage(this)">
+    <img src="4.jpeg" class="thumbnail" onclick="showImage(this)">
+
+    <div class="image-display">
+        <img id="largeView" class="selected-image" src="1.jpeg">
+    </div>
+
+    <script>
+        function showImage(el){
+            document.getElementById("largeView").src = el.src;
+        }
+    </script>
+    
+</body>
+</html>

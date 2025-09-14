@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form id="registration">
+        <label>Username:</label>
+        <input type="text" id="username" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" required>
+        <br><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" id="confirmPassword" required>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="error" style="color:red;"></p>
+
+    <script>
+        const f = document.getElementById('registration');
+        const p = document.getElementById('password');
+        const cp = document.getElementById('confirmPassword');
+        const e = document.getElementById('error');
+
+        f.addEventListener("submit", function(a){
+            a.preventDefault();
+            if(p.value !== cp.value){
+                e.textContent = "Error: Password do not match";
+            }else{
+                e.textContent = "";
+                alert("Registration Successful");
+                f.reset();
+            }
+
+        })
+    </script>
+    
+</body>
+</html>
