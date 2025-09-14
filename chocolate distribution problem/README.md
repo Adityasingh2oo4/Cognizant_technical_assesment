@@ -3,7 +3,7 @@
 ## Problem Statement
 You are organizing a charity event in a village, where you distribute chocolates to children sitting in a circle.  
 
-👉 The distribution of chocolates follows these rules based on each child’s position in the circle:  
+The distribution of chocolates follows these rules based on each child’s position in the circle:  
 - The *i-th child* receives **i chocolates**.  
 - If a child’s position is **adjacent to a multiple of 5**, they receive **an additional 2 chocolates**.  
 
@@ -27,14 +27,12 @@ Return an integer value representing the **total number of chocolates distribute
 **Input**  
 input1: 5
 
-markdown
-Copy code
+
 
 **Output**  
 19
 
-yaml
-Copy code
+
 
 **Explanation**  
 For N = 5, chocolates distribution is:  
@@ -52,14 +50,12 @@ Total = 3 + 2 + 3 + 6 + 5 = **19**
 **Input**  
 input1: 3
 
-markdown
-Copy code
+
 
 **Output**  
 6
 
-yaml
-Copy code
+
 
 **Explanation**  
 For N = 3:  
