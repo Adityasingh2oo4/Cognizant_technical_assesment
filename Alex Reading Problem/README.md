@@ -24,17 +24,16 @@ Return an integer value representing the **maximum number of books Alex can read
 ## Example 1:
 **Input**  
 input1: [4, 2, 3, 1]
+
 input2: 5
+
 input3: 4
 
-markdown
-Copy code
 
 **Output**  
 2
 
-yaml
-Copy code
+
 
 **Explanation**  
 - Alex has 4 books with reading times {4, 2, 3, 1}.  
