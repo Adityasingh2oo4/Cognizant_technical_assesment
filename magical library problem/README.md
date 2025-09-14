@@ -3,7 +3,7 @@
 ## Problem Statement
 In a magical library, each bookshelf is represented by a two-dimensional array **A**, where each row of the 2D array **A[i]** represents the series value of a book.
 
-👉 A row is considered *magical* if the **sum of the odd values** of the series of a book is **even**.
+ A row is considered *magical* if the **sum of the odd values** of the series of a book is **even**.
 
 Your task is to find and return an integer value representing the **number of magical rows**.
 
@@ -29,14 +29,12 @@ input1: 3
 input2: 3
 input3: {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
 
-markdown
-Copy code
+
 
 **Output**  
 2
 
-yaml
-Copy code
+
 
 **Explanation**  
 - Row 1 → {1, 2, 3} → odd numbers = {1, 3}, sum = 4 (even ✅) → magical  
@@ -53,14 +51,12 @@ input1: 3
 input2: 2
 input3: {{2, 4}, {0, 0}, {11, 11}}
 
-markdown
-Copy code
+
 
 **Output**  
 1
 
-yaml
-Copy code
+
 
 **Explanation**  
 - Row 1 → {2, 4} → no odd numbers → sum = 0 (even ✅) → magical  
