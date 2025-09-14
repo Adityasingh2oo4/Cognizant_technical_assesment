@@ -3,7 +3,7 @@
 ## Problem Statement
 Jim has a password represented by a string **S** consisting of lowercase English letters (`a-z`) and digits (`0-9`).  
 
-👉 The distance between two characters is defined as the **absolute difference** between their indices in the string.  
+ The distance between two characters is defined as the **absolute difference** between their indices in the string.  
 
 Your task is to find and return the **maximum distance between two non-similar characters** within the given password **S**.  
 
@@ -25,14 +25,12 @@ Return an integer representing the **maximum distance between two non-similar ch
 **Input**  
 abc10
 
-markdown
-Copy code
+
 
 **Output**  
 4
 
-markdown
-Copy code
+
 
 **Explanation**  
 In the string `"abc10"`, the maximum distances between non-similar characters are:  
@@ -48,14 +46,12 @@ The maximum distance = **4**.
 **Input**  
 bbbb
 
-markdown
-Copy code
+
 
 **Output**  
 0
 
-yaml
-Copy code
+
 
 **Explanation**  
 In the string `"bbbb"`, all characters are the same.  
