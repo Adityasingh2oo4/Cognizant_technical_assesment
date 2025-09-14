@@ -5,14 +5,9 @@ You are given two integer arrays **A** and **B** of length **N** on which you ha
 
  In one operation, you can swap any two elements of **A** or any two elements of **B**.
 
-Your task is to find and return an integer value representing the **minimum possible sum** of:
+Your task is to find and return an integer value representing the **minimum possible sum** of A[i] * B[i] after performing the above operation any number of times.  
 
-\[
-\text{Sum} = \sum_{i=1}^{N} A[i] \times B[i]
-\]
-
-after performing the above operation any number of times.  
-*Note: The operation can also be performed 0 times if no swap is needed.*
+> *Note: The operation can also be performed 0 times if no swap is needed.*
 
 ---
 
