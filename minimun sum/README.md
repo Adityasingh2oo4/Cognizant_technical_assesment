@@ -3,7 +3,7 @@
 ## Problem Statement
 You are given two integer arrays **A** and **B** of length **N** on which you have to perform the following operation:
 
-👉 In one operation, you can swap any two elements of **A** or any two elements of **B**.
+ In one operation, you can swap any two elements of **A** or any two elements of **B**.
 
 Your task is to find and return an integer value representing the **minimum possible sum** of:
 
@@ -36,14 +36,13 @@ input1: 4
 input2: {1,4,3,2}
 input3: {1,4,3,4}
 
-markdown
-Copy code
+
 
 **Output**  
 25
 
-yaml
-Copy code
+
+
 
 **Explanation**  
 Here, A = {1,4,3,2} and B = {1,4,3,4}.  
@@ -60,14 +59,12 @@ input1: 3
 input2: {4,1,6}
 input3: {3,1,2}
 
-markdown
-Copy code
+
 
 **Output**  
 17
 
-yaml
-Copy code
+
 
 **Explanation**  
 Here, A = {4,1,6} and B = {3,1,2}.  
